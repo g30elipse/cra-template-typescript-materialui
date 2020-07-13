@@ -1,0 +1,20 @@
+{
+  "name": "cra-template-typescript-materialui",
+  "version": "1.0.0",
+  "description": "react typescript template with material-ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cra-template",
+    "cra-template-typescript",
+    "react-template",
+    "react",
+    "template",
+    "typescript",
+    "material-ui"
+  ],
+  "author": "mukut brahma",
+  "license": "MIT"
+}

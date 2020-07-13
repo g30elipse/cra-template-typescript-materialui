@@ -1,0 +1,53 @@
+{
+  "name": "web-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.2",
+    "@material-ui/icons": "^4.5.1",
+    "axios": "^0.19.0",
+    "clsx": "^1.0.4",
+    "dayjs": "^1.8.18",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "typescript": "~3.7.2",
+    "universal-cookie": "^4.0.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "start:prod": "export REACT_APP_NODE_ENV=production && npm start",
+    "start:stag": "export REACT_APP_NODE_ENV=staging && npm start",
+    "start-win:stag": "set REACT_APP_NODE_ENV=staging && npm start",
+    "build": "react-app-rewired build",
+    "build:prod": "export REACT_APP_NODE_ENV=production && npm run build",
+    "build:stag": "export  REACT_APP_NODE_ENV=staging && npm run build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^5.1.3",
+    "babel-plugin-import": "^1.13.0",
+    "customize-cra": "^0.9.1",
+    "react-app-rewired": "^2.1.5",
+    "webpack-bundle-analyzer": "^3.6.0"
+  }
+}

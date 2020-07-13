@@ -1,11 +1,23 @@
-import React, { FC, useState, useContext } from 'react';
+import React, { FC } from 'react';
+import { makeStyles, Theme } from '@material-ui/core/styles';
+import { Box } from '@material-ui/core';
 
-const Landing: FC = () => {
+export interface LandingScreenProps {
+
+}
+
+const LandingScreen: FC<LandingScreenProps> = (props) => {
+    const classes = useStyles();
+
     return (
-        <div>
-
-        </div>
+        <Box>
+            Welcome to React-material UI
+        </Box>
     )
 }
 
-export default Landing;
+const useStyles = makeStyles<Theme, any>((theme) => ({
+
+}));
+
+export default LandingScreen;
